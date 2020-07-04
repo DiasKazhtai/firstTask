@@ -1,0 +1,49 @@
+table {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+a {
+  color: #333333;
+   font: 10px Arial, sans-serif; 
+   line-height: 30px; 
+   -webkit-text-size-adjust:none; 
+   display: block;
+}
+
+span {
+  display:inline-block; width:300px;
+  color: #333333;
+   font: 10px Arial, sans-serif;
+    line-height: 30px; 
+    -webkit-text-size-adjust:none;
+     display: block
+}
+
+center {
+  max-width: 600px; width: 100%;
+}
+
+td {
+  display: block;
+}
+
+.hello {
+  margin-bottom: 30px;
+}
+
+.infoWr{
+  td{
+    &:first-child{
+      font-weight: bold;
+    }
+    
+  }
+  .info {
+    margin-bottom: 30px;
+  }
+}
